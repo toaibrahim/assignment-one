@@ -18,7 +18,7 @@
     padding: 0;
 }
 
-main.footer{
+main,footer{
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -32,6 +32,9 @@ main.footer{
 .primary-color{
     color: #4E47FF;
 }
+.secondary-color{
+    color: #4E47FF;
+}
 .dark-2{
     color: #252432;
 }
@@ -43,6 +46,15 @@ main.footer{
     color: #fff;
     font-size: 16px;
     font-weight: bold;
+}
+.description{
+    color: #252432;
+    font-size: 24px;
+
+}
+.description-1{
+     color: #252432;
+    font-size: 20px;
 }
 
 
@@ -70,4 +82,113 @@ main.footer{
 .hero-title{
     font-size: 65px;
     margin-bottom: 37px;
+}
+
+
+/* Action Styling */
+
+.action{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 116px 0;
+}
+.action-box{
+    width: 50%;
+}
+.action-title{
+    font-size: 42px;
+    font-weight: bold;
+    margin-bottom: 23px;
+}
+.action-des{
+    margin-bottom: 23px;
+    width: 60%;
+}
+
+.action-box-img{
+     width: 403px;
+    height: 326px;
+    border-radius: 48px;
+}
+.action-img{
+    /* width: 403px;
+    height: 326px; */
+    width: 100%;
+    height: 100%;
+    border-radius: 48px;
+}
+
+
+/* Productive users */
+.productive-users{
+    background-color: rgba(78, 71, 255, 10%);
+    padding: 50px 142px;
+    margin: 116px 0;
+}
+.users-box-container{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+.users-title{
+    font-size: 38px;
+    color: #252432;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.user-title{
+    color: #4E47FF;
+    font-size: 80px;
+}
+
+/* review section */
+
+.review{
+    margin: 137px 0;
+}
+
+.review-title{
+    color: #252432;
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.review-box-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+.review-box{
+    padding: 25px;
+    box-shadow: 10px 6px 500px 0px rgba(0, 0, 0, 0.221);
+    
+    border-radius: 14px;
+    padding: 24px;
+}
+.review-box-img{
+    width: 60%;
+}
+.star{
+    margin-bottom: 24px;
+}
+
+.review-box-title{
+    color: #1E1E1E;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+.review-box-des{
+    color: #1E1E1E;
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.box-bottom{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 25px;
+    margin-top: 24px;
 }
