@@ -18,7 +18,7 @@
     padding: 0;
 }
 
-main,footer{
+main{
     max-width: 1140px;
     margin: 0 auto;
 }
@@ -191,4 +191,118 @@ main,footer{
     align-items: center;
     gap: 25px;
     margin-top: 24px;
+}
+
+
+/* Focus section */
+
+.focus{
+    text-align: center;
+    background-color: #fff;
+    padding: 71px;
+    margin: 93px 0;
+}
+
+.focus-title{
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.focus-des{
+    color: rgba(0, 0, 0, 50%);
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.focus-btn{
+    margin-bottom: 20px;
+}
+
+.focus-image{
+    border-radius: 48px;
+}
+
+/* contact section */
+.contact{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* gap: 115px; */
+    padding: 71px 20px;
+    margin: 92px 0;
+}
+.contact-title{
+    font-size: 97px;
+    color: #000;
+}
+.contact form label{
+    display: block;
+    margin-bottom: 10px;
+}
+.contact form{
+    width: 35%;
+}
+.contact form input[type='text'],input[type='email']{
+    display: block;
+    width: 100%;
+    height: 30px;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 6px 50px 2px rgba(0, 0, 0, 0.221);
+}
+
+.contact form textarea{
+    display: block;
+    padding: 12px 20px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 6px 50px 2px rgba(0, 0, 0, 0.221);
+}
+.contact form input[type='submit']{
+    width: 100%;
+}
+
+
+/* Footer style */
+
+footer{
+    padding: 105px 0;
+    margin: 0 auto;
+    /* align-items: center; */
+}
+.footer{
+    align-items: center;
+    margin: 0 auto;
+    width: 531px;
+    height: 221px;
+    text-align: center;
+}
+.foot-logo{
+    margin-bottom: 8px;
+    font-size: 121px;
+    font-weight: 800;
+}
+.foot-des{
+    color: #8987A1;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.footer nav ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+.footer li{
+    list-style: none;
+}
+.footer li a{
+    text-decoration: none;
+    color: #8987A1;
+    font-size: 16px;
+}
+.footer li a:hover{
+    color: #4e4c60;
 }
