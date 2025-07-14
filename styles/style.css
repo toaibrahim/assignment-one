@@ -41,11 +41,16 @@ main{
 .primary-btn{
     background-color: #4E47FF;
     padding: 12px 36px;
-    border: none;
+    border: 2px solid #4E47FF;
     border-radius: 10px;
     color: #fff;
     font-size: 16px;
     font-weight: bold;
+}
+.primary-btn:hover{
+    background-color: #fff;
+    border: 2px solid #4E47FF;
+    color: #4E47FF;
 }
 .description{
     color: #252432;
